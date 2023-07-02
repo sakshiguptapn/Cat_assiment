@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background:transparent;
+    height: 60px;
+    overflow: hidden;
+}
+nav a{
+    color: gray;
+    margin-right: 40px;
+    font-size: 18px;
+}
+nav a:hover{
+    transform: scale3d(1.05,1.05,1.05);
+    text-decoration: none;
+    color: #333;
+}
+.logo{
+    height: 60px;
+}
+.button{
+    background-color: #04ddb2;
+    color: white;
+    border: none;
+    padding: 14px 18px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button:hover{
+    transform: scale3d(1.05,1.05,1.05);
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+}
+
+.main-heading{
+    width: 500px;
+    text-align: center;
+    margin: 0px auto;
+   
+}
+.main-heading h1{
+    font-size: 56px;
+}
+.main-heading p{
+    font-size: 26px;
+    line-height: 1.5cm;
+}
+
+.video{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    padding: 40px;
+    border-radius: 24px;
+    position: relative;
+
+}
+.video:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: scale3d(1.05,1.05,1.05);
+    text-decoration: none;
+    color: #333;
+}
+.inner-video{
+   position: absolute;
+   width: 800px;
+   height: 400px;
+   margin: 30px 60px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    line-height: 1.0cm;
+    margin: 0 auto;
+    width: 80%;
+}
+.footer-logo{
+    height: 40px;
+}
+footer i{
+    background-color: #04ddb2;
+    color: white;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+footer i:hover{
+    transform: scale3d(1.05,1.05,1.05);
+    text-decoration: none;
+    font-size: 24px;
+}
+footer a{
+    color: black;
+}
+.bold{
+    font-weight: bold;
+}
+.app{
+    text-align: center;
+    padding: 40px;
+    width: 500px;
+}
+.app h1{
+    font-size: 70px;
+}
